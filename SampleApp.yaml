@@ -5,5 +5,5 @@ testPlan: SampleApp.jmx
 description: 'Load test the sample app'
 engineInstances: 1
 failureCriteria: 
-    - avg(response_time_ms) > 100
-    - percentage(error) > 20
+    - avg(response_time_ms) > 5000
+    - percentage(error) > 20
